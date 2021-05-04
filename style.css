@@ -1,0 +1,75 @@
+:root {
+  --background-color: #1c4586;
+  --border: 3px solid #03080f;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #03080f;
+}
+.coolsite {
+  color: #ebf2fd;
+  background-color: var(--background-color);
+  font-size: 25px;
+  text-align: center;
+  padding: 2.5rem;
+  border: var(--border);
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
+
+.designer-title {
+  font-size: 50px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.information {
+  width: 75%;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.information p {
+  padding: 0 3rem;
+}
+
+.article-section {
+  flex-wrap: var(--background-color);
+  width: 25%;
+  padding: 8rem 2rem 2rem;
+}
+
+.article {
+  padding: 4rem 0;
+}
+
+.article-image {
+  width: 100%;
+}
+
+h3.title {
+  font-size: 28px;
+  margin: 1rem 0 0.5rem;
+}
+
+.designer-description {
+  display: flex;
+}
+.empty {
+  height: 2rem;
+  background-color: #e0eaf5;
+}
+
+.footer {
+  height: 8rem;
+  background-color: var(--background-color);
+  border: var(--border);
+}
+
+.bord-1 {
+  border-radius: 3px;
+}
