@@ -18,11 +18,14 @@ body {
   padding: 2.5rem;
   border: var(--border);
   font-family: "Bebas Neue", cursive;
-  font-size: 55px;
+  font-size: 5vw;
+  line-height: 1;
 }
 
 .designer-title {
-  font-size: 50px;
+  font-size: 4vw;
+  line-height: 0.85;
+  margin: 1em;
 }
 
 .title-container {
@@ -30,7 +33,7 @@ body {
 }
 
 .information {
-  width: 75%;
+  width: 65%;
   padding: 3rem;
   margin-top: 3rem;
 }
@@ -41,7 +44,7 @@ body {
 
 .article-section {
   flex-wrap: var(--background-color);
-  width: 25%;
+  width: 21%;
   padding: 8rem 2rem 2rem;
 }
 
@@ -60,10 +63,17 @@ h3.title {
 
 .designer-description {
   display: flex;
+  flex-wrap: wrap;
 }
 .empty {
   height: 2rem;
-  background-color: #e0eaf5;
+  background: rgb(163, 166, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 166, 189, 1) 0%,
+    rgba(112, 146, 215, 1) 50%,
+    rgba(163, 166, 189, 1) 100%
+  );
 }
 
 .footer {
